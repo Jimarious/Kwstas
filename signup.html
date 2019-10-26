@@ -9,17 +9,17 @@
   <link rel="icon" href="/docs/4.1/assets/img/favicons/favicon.ico">
   <title>Signin Template for Bootstrap</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link href="css/styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body action="/" class="text-center" method="post">
-  <form name="form" class="form-signin">
+<body class="text-center">
+  <form name="form" class="form-signin" action="/" method="post">
     <img class="mb-4" src="images/envelope.png" alt="" width="72" height="72">
     <h1 class="h3 mb-3 font-weight-normal">Signup to my Newsletter.</h1>
     <input type="text" name="fName" class="form-control form-top" placeholder="First Name" required autofocus>
     <input type="text" name="lName" class="form-control form-middle" placeholder="Last Name" required>
     <input type="email" name="email" class="form-control form-bottom" placeholder="Email" required>
-    <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+    <button class="btn btn-lg btn-primary btn-block" type="submit" name="submit">Sign in</button>
     <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
   </form>
 </body>
